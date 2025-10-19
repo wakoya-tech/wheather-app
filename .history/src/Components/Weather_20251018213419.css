@@ -1,0 +1,93 @@
+/* App.css or Weather.css */
+
+/* 🌍 Center the entire app on screen */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d192cd;
+  }
+  
+  /* 🌤️ Weather container */
+  .weather {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  /* 🔍 Search bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-bar input {
+    height: 50px;
+    font-size: 16px;
+    border-radius: 40px;
+    padding-left: 25px;
+    border: none;
+    outline: none;
+    color: #626262;
+    background: #ebfffc;
+  }
+  
+  .search-bar img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .search-bar img:hover {
+    background: #d6f5f2;
+    transform: scale(1.05);
+  }
+  
+  /* 🌦️ Weather display */
+  .weather-icon {
+    width: 150px;
+    margin: 30px 0;
+  }
+  
+  .temperature {
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+  }
+  
+  .location {
+    color: #fff;
+    font-size: 40px;
+  }
+  
+  /* 💧 Wind & humidity data section */
+  .weather-data {
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .col img {
+    width: 40px;
+  }
+  

@@ -1,0 +1,108 @@
+/* Center the entire app on screen */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6daf4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Weather container */
+  .weather {
+    width: 90%;
+    max-width: 300px;
+    margin: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+  }
+  
+  .weather:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 40px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    color: #626262;
+    background: #ebfffc;
+  }
+  
+  .search-bar img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .search-bar img:hover {
+    background: #d6f5f2;
+    transform: scale(1.05);
+  }
+  
+  /* Weather Display */
+  .weather-icon {
+    width: 150px;
+    margin: 20px 0;
+  }
+  
+  .temperature {
+    color: #fff;
+    font-size: 70px;
+    line-height: 1;
+  }
+  
+  .location {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Weather Data */
+  .weather-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .weather-data .col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+  }
+  
+  .weather-data .col span {
+    display: block;
+    font-size: 12px;
+    color: #e0e0e0;
+  }
+  
+  .weather-data .col img {
+    width: 30px;
+  }
+  
