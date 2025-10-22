@@ -12,7 +12,7 @@ import humidity from '../assets/Humidity.png';
 function Weather() {
   const [weatherData, setWeatherData] = useState(null);
   
-  const [city, setCity] = useState(""); // store input value
+  const [city, setCity] = useState(""); 
 
   const allIcons = {
     "01d": clear, "01n": clear,
