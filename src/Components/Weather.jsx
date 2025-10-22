@@ -41,7 +41,7 @@ function Weather() {
       setWeatherData({
         temperature: Math.floor(data.main.temp),
         humidity: data.main.humidity,
-        windSpeed: Math.floor(data.wind.speed * 3.6), // convert m/s to km/h
+        windSpeed: Math.floor(data.wind.speed * 3.6), 
         location: data.name,
         icon: icon,
       });
