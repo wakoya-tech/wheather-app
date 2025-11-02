@@ -8,7 +8,6 @@ import drizzle from '../assets/Drizzle.png';
 import snow from '../assets/Snow.png';
 import wind from '../assets/Wind.png';
 import humidity from '../assets/Humidity.png';
-
 function Weather() {
   const [weatherData, setWeatherData] = useState(null);
   
